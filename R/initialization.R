@@ -3,7 +3,7 @@
 # private github repos can be made public via the web interface
 
 # make a software license
-usethis::use_mit_license("<your name here>")
+usethis::use_mit_license("Brad Blaser")
 
 # generate a readme file to explain your work
 usethis::use_readme_md(open = FALSE)
@@ -19,7 +19,7 @@ system("git config --global init.defaultBranch main")
 usethis::use_git()
 
 # initialize github
-usethis::use_github(private = TRUE)
+usethis::use_github(private = FALSE)
 
 
 ### Delete this file after initializing the project! ###
