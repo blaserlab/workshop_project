@@ -17,7 +17,9 @@
 # blaseRtemplates::easy_install("<package name>", how = "link_from_cache")
 
 # # If you need a new package or an update, try this:
-# blaseRtemplates::easy_install("<package name>", how = "new_or_update")
+# blaseRtemplates::easy_install("cowplot", how = "new_or_update")
+# blaseRtemplates::easy_install("rstatix", how = "new_or_update")
+# blaseRtemplates::easy_install("ggpubr", how = "new_or_update")
 
 # # If you are installing from a "tarball", use this:
 # blaseRtemplates::easy_install("/path/to/tarball.tar.gz")
@@ -31,6 +33,9 @@ library("blaseRtemplates")
 library("conflicted")
 library("tidyverse")
 library("gert")
+library("cowplot")
+library("rstatix")
+library("ggpubr")
 
 # install and load data package if using ----------------------------------------------
 
