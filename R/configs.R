@@ -7,11 +7,12 @@ conflict_prefer("lag", "dplyr")
 conflict_prefer("select", "dplyr")
 conflict_prefer("rename", "dplyr")
 conflict_prefer("count", "dplyr")
+conflict_prefer("rowRanges", "MatrixGenerics")
 
 
 # analysis configurations -------------------------------------------------
 # use this section to set graphical themes, color palettes, etc.
-
+theme_set(theme_cowplot(font_size = 12))
 # experimental_group_palette <- c("group1" = "red4", "group2" = "blue3")
 
 
