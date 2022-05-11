@@ -166,9 +166,11 @@ cds_main_14<-
                             package = "blaseRextras")
   )
 
+cds_main <- cds_main_14
+
 # save the objects -------------------------------------------------------
 save(analysis_configs, file = "data/analysis_configs.rda", compress = "bzip2")
-save(cds_main_14, file = "data/cds_main.rda", compress = "bzip2")
+save(cds_main, file = "data/cds_main.rda", compress = "bzip2")
 save(cds_main_top_markers, file = "data/cds_main_top_markers.rda", compress = "bzip2")
 save(seq_qc, file = "data/seq_qc.rda", compress = "bzip2")
 save(ind_qc_res, file = "data/ind_qc_res.rda", compress = "bzip2")

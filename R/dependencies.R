@@ -39,8 +39,7 @@ library("monocle3")
 library("Seurat")
 
 # install and load data package if using ----------------------------------------------
-
+blaseRtemplates::bb_renv_datapkg("C://Users//blas02//r_projects//datapkg//workshop.project.datapkg")
 #
-# blaseRtemplates::bb_renv_datapkg(path = "X://Labs//Blaser//share//resources//datapkg//blaseRextras//blaseRextras_0.0.0.9002.tar.gz")
-# lazyData::requireData("<data package name>")
+lazyData::requireData("workshop.project.datapkg")
 #

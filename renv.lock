@@ -3253,6 +3253,14 @@
       "Hash": "b64cdbb2b340437c4ee047a1f4c4377b",
       "Requirements": []
     },
+    "lazyData": {
+      "Package": "lazyData",
+      "Version": "1.1.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "c73e3a2c3e2086606e25698038465bd8",
+      "Requirements": []
+    },
     "lazyeval": {
       "Package": "lazyeval",
       "Version": "0.2.2",
@@ -5709,6 +5717,24 @@
         "RColorBrewer",
         "Rcpp"
       ]
+    },
+    "workshop.data.test": {
+      "Package": "workshop.data.test",
+      "Version": "0.0.0.9001",
+      "Source": "Local",
+      "RemoteType": "local",
+      "RemoteUrl": "C://Users//blas02//r_projects//datapkg/workshop.data.test_0.0.0.9001.tar.gz",
+      "Hash": "8a280f9add8f1c907cec10aa74873872",
+      "Requirements": []
+    },
+    "workshop.project.datapkg": {
+      "Package": "workshop.project.datapkg",
+      "Version": "0.0.0.9002",
+      "Source": "Local",
+      "RemoteType": "local",
+      "RemoteUrl": "C://Users//blas02//r_projects//datapkg//workshop.project.datapkg/workshop.project.datapkg_0.0.0.9002.tar.gz",
+      "Hash": "024a0338b3e38e48faf24a85eb09f3a7",
+      "Requirements": []
     },
     "xfun": {
       "Package": "xfun",
